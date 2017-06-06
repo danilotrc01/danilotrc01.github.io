@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F0F0EF;
+	font-family: Arial, Verdan;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+#wrapper{
+	padding: 2px;
+	border-radius: 5px;
+}
+
+#header{
+	border-radius: 5px;
+}
+
+#site{
+     width: 90%;
+     margin: 0 auto;
+
+}
+
+#logo{
+	float: left;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 10px 5px 5px 0;
+}
+
+#logo > a > img {
+	border-radius: 5px;
+}
+
+#logo > img {
+	border-radius: 5px;
+}
+
+#description{
+	height: 220px;
+	padding: 60px;
+	background:linear-gradient(#303535, #131212);
+	text-align: center;
+}
+
+#description > h1{
+		color: #fff;
+}
+
+#menu{
+	border-radius: 5px 0 0 5px;
+	float: left;
+	width: 100%;
+}
+
+#menu ul{margin: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+
+.item-menu{
+	width: 20%;
+	height:50px;
+	float: left;
+	background-color: #0A017E;
+	text-align: center;
+	border:1px solid #362ea5;
+}
+
+
+
+
+
+#section{
+	background-color: #fff;
+	padding-top: 40px;
+	text-align: center;
+	min-height: 600px;
+}
+
+#section:after{content:"";display:table;clear:both;width:100%}
+
+p {
+	padding: 30px;
+	text-align:center;
+}
+
+
+#footer{
+	width: 100%;
+	height: 22px;
+	background-color: #131212 !important;
+	text-align: center;
+	top: 100%;
+	border-radius: 0 0 5px 5px;
+}
+
+#footer > h4{
+		color: #fff;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+}
+
+h1, h4, p, a{
+	color: #000;
+}
+
+ul {
+	list-style-type: none;
+	margin:  0 0 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #131212;
+}
+
+li{
+	float: left;
+	}
+	
+li a{
+	display: block;
+	text-decoration:none;
+	color: #fff;
+	padding: 10px 10px;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 25px;
+}
+
+li a:hover:not(.active) {
+	background-color: #030C56;
+	border-radius: 5px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #242FA8;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #242FA8;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #242FA8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #030C56;
+}
+
+#formulario {
+    border-radius: 5px;
+	color: #fff;
+    background-color: #0A017E;
+    padding: 20px;
+	margin: 30px;
+	text-align: left;
+	font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #242FA8;
+    border-radius: 5px;
+    background-color: #fff;
+    resize:none;
+	overflow:visible;
+	font-family: times new roman;
+	margin: 10px 0;
+}
+
+
+/*hobby.html*/
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+}
+
+div.gallery:hover {
+    border: 1px solid #F15B5D;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: justify;
+}
